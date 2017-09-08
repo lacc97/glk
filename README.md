@@ -1,2 +1,2 @@
-# glk
-Glk
+# Glk
+Andrew Plotkin's Glk API C files
