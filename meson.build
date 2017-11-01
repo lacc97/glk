@@ -1,4 +1,4 @@
-project('glk', 'c', version : '0.6.1')
+project('glk', 'c', version : '0.7.5')
 
 pkg = import('pkgconfig')
 
