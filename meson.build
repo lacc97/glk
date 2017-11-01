@@ -15,7 +15,7 @@ pkg.generate(
 gi_dispa_lib = static_library('gi_dispa', 'gi_dispa.c', install : true, install_dir : get_option('libdir') + '/glk/' + glk_str + '/dispatch')
 install_headers('gi_dispa.h', subdir : 'glk/' + glk_str + '/dispatch')
 pkg.generate(
-    name :          'glk_dispatch-' + meson.project_version(),
+    name :          'gi_dispatch-' + meson.project_version(),
     description :   'Glk dispatch layer',
     version :       meson.project_version(),
     requires :      'glk = '+ meson.project_version(),
