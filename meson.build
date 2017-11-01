@@ -18,7 +18,7 @@ pkg.generate(
     name :          'gi_dispatch-' + meson.project_version(),
     description :   'Glk dispatch layer',
     version :       meson.project_version(),
-    requires :      'glk = '+ meson.project_version(),
+    requires :      'glk-'+ meson.project_version(),
     subdirs :       'glk/' + glk_str + '/dispatch',
     libraries :     gi_dispa_lib
 )
