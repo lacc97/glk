@@ -17,8 +17,10 @@
 /* You may have to edit the definition of glui32 to make sure it's really a
     32-bit unsigned integer type, and glsi32 to make sure it's really a
     32-bit signed integer type. If they're not, horrible things will happen. */
-typedef unsigned long glui32; 
-typedef signed long glsi32; 
+#include <stdint.h>
+
+typedef uint32_t glui32; 
+typedef int32_t glsi32; 
 
 /* These are the compile-time conditionals that reveal various Glk optional
     modules. */
